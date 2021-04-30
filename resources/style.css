@@ -34,7 +34,17 @@ header .logo{
     font-weight: 800;
     letter-spacing: 1px;
 }
-
+.line p{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px 25px;
+    font-weight: 500;
+    text-shadow: #000;
+    font-style: italic;
+    letter-spacing: 1px;
+ 
+    margin-bottom: 30px;
+}
 .cont p{
     color: #ffffff;
     font-size: 65px;
