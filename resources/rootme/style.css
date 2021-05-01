@@ -72,7 +72,7 @@ color:#fff;
 }
 .blog-card:hover .card-info {
   opacity: 1;
-  bottom: 100px;
+  bottom: 150px;
 }
 .blog-card:hover .color-overlay {
   background: rgba(28, 28, 102, 0.8);
