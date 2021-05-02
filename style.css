@@ -105,6 +105,7 @@ header .navigation a:hover{
   text-decoration: none;
   font-size: 24px;
   overflow: hidden;
+  font-weight: 400;
   transition: 0.2s;
 }
 
