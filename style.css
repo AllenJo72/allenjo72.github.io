@@ -62,7 +62,9 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: #000000;
+  background: #ffffff;
+  color: #000;
+  transition:0.5s;
 }
 
 
