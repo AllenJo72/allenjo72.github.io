@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0; 
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+ }
+ body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     background: linear-gradient(120deg, #042053, #791407);
+ }
+ .footer {
+     position: fixed;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     text-align: center;
+ }
+ .heading {
+     position: relative;
+     font: 400 100px 'Megrim';
+     line-height: 150px;
+     text-align: center;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     transform: skew(-16deg, 1deg);
+     margin: 50px 0;
+ }
+ .heading:before {
+     content: "";
+     display: block;
+     width: 70%;
+     margin: auto;
+     background: #ffffff;
+     height: 2px;
+     animation: lineanim 0.5s ease-in-out;
+ }
+ .heading:after {
+     content: "";
+     display: block;
+     width: 70%;
+     margin: auto;
+     background: #ffffff;
+     height: 2px;
+     animation: lineanim 0.5s ease-in-out;
+ }
+ @keyframes lineanim {
+   0% {
+     width: 0;
+   }
+   50% {
+     width: 100%;
+   }
+   100% {
+     width: 70%;
+   }
+ }
+ .site-name > * {
+     text-align: center;
+     display: block;
+     font-family: "Raleway";
+     margin: 10px 0;
+ }
+ .site-name > h2 {
+     color: #ffffff;
+     font-size: 50px;
+     font-weight: 200;
+ }
+ .site-name {
+   margin: 20px 0;
+ }
+ strong {
+     font-size: 25px;
+     font-weight: 500;
+ }
+
+ .contact {
+   font-family: "Raleway";
+   font-size: 15px;
+ }
+ @media (max-width: 600px) {
+   .heading {
+     font: 500 45px 'Megrim';
+     line-height: 70px;
+   }
+   .site-name > h2 {
+       font-size: 30px;
+   }
+   strong {
+       font-size: 20px;
+   }
+ }
+ @media screen and (max-width: 767px) and (min-width: 601px) {
+   .heading {
+     font: 500 60px 'Megrim';
+     line-height: 80px;
+   }
+   .site-name > h2 {
+       font-size: 35px;
+   }
+   strong {
+       font-size: 25px;
+   }
+ }
